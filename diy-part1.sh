@@ -18,6 +18,6 @@
 # echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
 sed -i '2s/^#//' feeds.conf.default
 sed -i '3s/^/#/' feeds.conf.default
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
