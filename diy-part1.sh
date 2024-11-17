@@ -19,6 +19,5 @@
 sed -i '2s/^#//' feeds.conf.default
 sed -i '3s/^/#/' feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-
-# git clone https://github.com/sbwml/luci-app-alist package/alist
-# git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
