@@ -4,14 +4,11 @@
 旁路由：此版本缺失了snmpd，其它完美。
 更改opkg列表
 
-# src/gz openwrt_core https://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/targets/amlogic/meson8b/packages
 src/gz openwrt_core http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/targets/armsr/armv7/packages/
 src/gz openwrt_base http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/base/
-# src/gz openwrt_kenzo https://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/kenzo
 src/gz openwrt_luci http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/luci/
 src/gz openwrt_packages http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/packages/
 src/gz openwrt_routing http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/routing/
-# src/gz openwrt_small https://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/small
 src/gz openwrt_telephony http://mirrors.tencent.com/lede/releases/24.10-SNAPSHOT/packages/arm_cortex-a5_vfpv4/telephony/
 
 然后在线安装snmpd即可。
